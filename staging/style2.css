@@ -1,0 +1,195 @@
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+body {
+    background-color: lightgray;
+}
+
+@media only screen and (min-width:760px) {
+    .navbar-brand {
+        width: 10%;
+    }
+}
+
+p.heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+
+.bord-rig {
+    border-right: 1.5px solid grey;
+}
+
+.over-sub-sec {
+    display: flex;
+    margin-bottom: 5%;
+
+}
+
+.over-sub-sec .icon img {
+    width: 75%;
+    padding-right: 5%;
+}
+
+.title {
+    padding-left: 10%;
+}
+
+.title p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title h3 {
+    font-size: 20px;
+
+}
+
+.content {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.sub-hed {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#pills-tab {
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav-item button {
+    color: #666666;
+    ;
+}
+
+.nav-item button:hover {
+    background: #DE9E53 !important;
+    color: white;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #DE9E53 !important;
+}
+
+.ame-img {
+    width: 25%;
+}
+
+.ame {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.img-w {
+    width: 25%;
+}
+
+.lnh p {
+    font-size: 20px;
+}
+
+.bor-lr {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.bor-l {
+    border-left: 1px solid #000000;
+}
+
+.input-box {
+    margin-bottom: 2%;
+}
+
+.input-box input,
+textarea {
+    width: 100%;
+    padding: 2%;
+}
+
+.footer-contact-info ul li {
+    list-style: none;
+}
+
+.footer-contact-info ul li a {
+    text-decoration: none;
+}
+
+.footer-contact-info ul {
+    padding-left: 0px !important;
+}
+
+#inquiry-btn {
+    background: #DE9E53;
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width:760px) {
+
+    p.heading {
+        font-size: 30px;
+        padding-bottom: 4%;
+    }
+
+    .over-sub-sec {
+        margin-bottom: 10%;
+    }
+
+    .over-sub-sec .icon img {
+        width: 80%;
+        padding-right: 0%;
+    }
+
+    .title {
+        padding-left: 0%;
+    }
+
+    .title p {
+        line-height: 10px;
+    }
+
+    .pills-tab li{
+        width: 100% !important;
+    }
+
+    .pills-tab li button{
+        width: 100% !important;
+        margin-bottom: 2%;
+    }
+    .title h3 {
+        font-size: 18px;
+    }
+
+    .ame-img {
+        width: 35%;
+    }
+
+    .ame {
+        font-size: 14px;
+    }
+}
